@@ -3,8 +3,8 @@ import './globals.css'
 import { Providers } from './providers'
 
 // custom: font
-import { Nunito_Sans, Overpass } from 'next/font/google'
-const font = Nunito_Sans({ subsets: ['latin'] })
+import { Nunito_Sans, Overpass, Open_Sans } from 'next/font/google'
+const font = Open_Sans({ subsets: ['latin'] })
 // const subfont = Montserrat({subsets: ['latin']})
 
 export const metadata = {
